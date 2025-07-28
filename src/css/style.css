@@ -1,0 +1,112 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--grey-900);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Inter", sans-serif;
+}
+
+.card{
+    background-color: var(--grey-800);
+    width: 380px;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5px;
+
+    border-radius: 15px;
+}
+
+.card img{
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.card h1{
+    font-weight: 700;
+    font-size: 28px;
+    ;
+}
+
+.card .cidade{
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: var(--green);
+}
+
+.card .interesses{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 15px;
+}
+
+.card ul li a{
+    background-color: var(--grey-700);
+    width: 300px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+}
+
+.card ul li a:hover{
+    background-color: var(--green);
+    color: #000000;
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution{
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

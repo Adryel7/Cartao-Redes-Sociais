@@ -1,0 +1,8 @@
+@media (max-width: 450px){
+    .card{
+        width: 350px;
+    }
+    .card ul li a{
+        width: 300px;
+    }
+}
