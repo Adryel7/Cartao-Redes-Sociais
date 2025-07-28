@@ -78,32 +78,9 @@ body{
     transition: .5s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .attribution{
+    position: absolute;
+    bottom: 2px;
     font-size: 11px; text-align: center;
 }
 
